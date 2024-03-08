@@ -14,5 +14,5 @@ while True:
     client.send(b'Content-Type: text/html\n')
     client.send(b'Access-Control-Allow-Origin: *\n')
     client.send(b'\n')
-    client.send(b'Hello world')
+    client.send(b'<b>Hello</b> <u>world</u>')
     client.close()
